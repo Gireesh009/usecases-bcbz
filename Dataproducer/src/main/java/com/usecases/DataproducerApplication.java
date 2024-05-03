@@ -1,0 +1,17 @@
+package com.usecases;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class DataproducerApplication {
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(DataproducerApplication.class, args);
+	}
+
+}
